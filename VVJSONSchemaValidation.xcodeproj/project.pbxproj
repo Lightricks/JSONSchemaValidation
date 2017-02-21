@@ -277,6 +277,7 @@
 		7DF696211A57E44E00739238 /* default.json in Resources */ = {isa = PBXBuildFile; fileRef = 7DF696201A57E44E00739238 /* default.json */; };
 		7DF696231A57E45F00739238 /* format.json in Resources */ = {isa = PBXBuildFile; fileRef = 7DF696221A57E45F00739238 /* format.json */; };
 		7DF696251A57E48D00739238 /* zeroTerminatedFloats.json in Resources */ = {isa = PBXBuildFile; fileRef = 7DF696241A57E48D00739238 /* zeroTerminatedFloats.json */; };
+		88499D841E59EE42000C4801 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88499D821E59EE2F000C4801 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -440,6 +441,7 @@
 		7DF696201A57E44E00739238 /* default.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = default.json; sourceTree = "<group>"; };
 		7DF696221A57E45F00739238 /* format.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = format.json; sourceTree = "<group>"; };
 		7DF696241A57E48D00739238 /* zeroTerminatedFloats.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zeroTerminatedFloats.json; sourceTree = "<group>"; };
+		88499D821E59EE2F000C4801 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -454,6 +456,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88499D841E59EE42000C4801 /* QuartzCore.framework in Frameworks */,
 				7D4CAEBD1A4FF95A003E1281 /* libVVJSONSchemaValidation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -510,6 +513,7 @@
 				7D8EDAB81D3F9582005557ED /* VVJSONSchemaValidation-tvOS */,
 				7D571D5C1A6167A80099BCCF /* VVJSONSchemaValidation-OSX */,
 				7D4CAEB21A4FF95A003E1281 /* Products */,
+				88499D811E59EE2F000C4801 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -684,6 +688,14 @@
 			);
 			name = "Test Suite JSONs";
 			path = JSON;
+			sourceTree = "<group>";
+		};
+		88499D811E59EE2F000C4801 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88499D821E59EE2F000C4801 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
